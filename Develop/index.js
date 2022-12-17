@@ -45,7 +45,7 @@ const questions = [
     type: "list",
     message: "Select a license to use.",
     name: "license",
-    choices: ["MIT", "Apache", "GNU", "ISC", "none"],
+    choices: ["MIT", "Apache", "GNU-GPLv3", "ISC", "none"],
   },
   {
     type: "input",
@@ -64,7 +64,7 @@ const questions = [
         if (err) {
             console.log(err);
         }
-        console.log("Your README is generated.")
+        console.log("Your README has been generated.")
     })
   };
 
@@ -74,8 +74,6 @@ const questions = [
 function init () {
     inquirer.prompt(questions)
     .then((response) => {
-        console.log('generating md file');
-        console.log(response)
         createReadMe('README', generateMarkdown({...response}))
     })
 };
