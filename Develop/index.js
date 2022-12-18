@@ -60,7 +60,7 @@ const questions = [
 ];
 
   function createReadMe(readMe, data) {
-    fs.writeFile(`./${readMe.toLowerCase().split(' ').join('')}.md`, data, (err) => {
+    fs.writeFile(`./${readMe.toUpperCase().split(' ').join('')}.md`, data, (err) => {
         if (err) {
             console.log(err);
         }
@@ -77,7 +77,6 @@ function init () {
         createReadMe('README', generateMarkdown({...response}))
     })
 };
-
 
 // Function call to initialize app
 init();

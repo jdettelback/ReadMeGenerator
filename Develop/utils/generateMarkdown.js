@@ -79,9 +79,11 @@ ${data.contribution}
 ${data.tests}
 
 ## Contact
-If you have any questions, contact me at ${
+If you have any questions, contact me at [${data.email}](mailto:${
     data.email
-  }. You can see more of my work at ${data.github}
+  }). You can see more of my work at <https://github.com/${
+    data.github
+  }>
   `;
 }
 
