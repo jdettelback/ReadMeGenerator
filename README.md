@@ -28,4 +28,6 @@ This project is using an MIT license.
 Contact me at [jdettelback@gmail.com](mailto:jdettelback@gmail.com) if you have any questions.  You can see more of my work at <https://github.com/jdettelback>.
 
 
-  
+  https://raw.githubusercontent.com/jdettelback/ReadMeGenerator/master/Develop/images/readmescreenshot.png
+  https://raw.githubusercontent.com/jdettelback/ReadMeGenerator/master/Develop/images/readmescreenshot2.png
+
